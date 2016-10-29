@@ -21,3 +21,9 @@ Example
     ngrams = Ngrams(params)
 
     print ngrams.result()
+
+=======
+License
+=======
+
+MIT
