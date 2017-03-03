@@ -8,7 +8,7 @@ class Ngrams(object):
 
     def result(self, number):
         result = []
-        with open('{0}/ngrams{1}.csv'.format(os.getcwd(), number), 'rb') as csvfile:
+        with open('{0}/ngrams/ngrams{1}.csv'.format(os.getcwd(), number), 'rb') as csvfile:
             spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
             for row in spamreader:
                 result.append(row[0].split(','))
