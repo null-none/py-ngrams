@@ -25,7 +25,7 @@ Example
 
     number = 1
 
-    ngrams = Ngrams(params)
+    ngrams = Ngrams(number)
 
     print ngrams.result()
 

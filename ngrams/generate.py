@@ -3,12 +3,12 @@ import csv
 
 class Ngrams(object):
 
-    def __init__(self, number):
-        self.number = number
+    def __init__(self):
+        pass
 
-    def result():
+    def result(self, number):
         result = []
-        with open('ngrams{0}.csv'.format(self.number), 'rb') as csvfile:
+        with open('ngrams{0}.csv'.format(number), 'rb') as csvfile:
             spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
             for row in spamreader:
                 result.append(row[0].split(','))
