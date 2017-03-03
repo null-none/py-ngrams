@@ -25,9 +25,9 @@ Example
 
     number = 1
 
-    ngrams = Ngrams(number)
+    ngrams = Ngrams()
 
-    print ngrams.result()
+    print ngrams.result(number)
 
 =======
 License
