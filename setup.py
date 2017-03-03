@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ngrams',
-    version='0.0.1',
+    version='1.0.0',
     packages=find_packages(),
     author='Dmitry Kalinin',
     author_email='dmitry.kalinin.email@gmail.com',
